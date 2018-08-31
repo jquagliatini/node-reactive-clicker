@@ -1,0 +1,30 @@
+{
+  "name": "clicker",
+  "version": "1.0.0",
+  "description": "clicker game",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "clicker",
+    "server-sent",
+    "event"
+  ],
+  "author": "jquagliatini <8466681+jquagliatini@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "pug": "^2.0.3",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
